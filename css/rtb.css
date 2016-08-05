@@ -19,7 +19,6 @@
 /* logo */    
   .logo {float: none;padding: 0;position: relative;margin-bottom: 20px;max-width: 250px;}
   .logo img { display: block; width: 75px; }
-  .logo {}
 
 .path {
   stroke-dasharray: 5000;
@@ -30,11 +29,14 @@
 @keyframes dash {
   from {
     stroke-dashoffset: 5000;
+    fill-opacity: 0;
   }
   to {
     stroke-dashoffset: 0;
+    fill-opacity: 1;
   }
 }
+
     
 /* menu */  
   
