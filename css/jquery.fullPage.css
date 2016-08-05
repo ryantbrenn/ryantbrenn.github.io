@@ -64,10 +64,10 @@ html.fp-enabled,
     position: absolute;
     z-index: 4;
     top: 50%;
-	transform: translate(0,-50%);
+    transform: translate(0,-50%);
     cursor: pointer;
-	background: transparent;
-	color: #ffffff;
+    background: transparent;
+    color: #ffffff;
 }
 .fp-controlArrow.fp-prev {
     left: 0;
@@ -77,31 +77,41 @@ html.fp-enabled,
 }
 
 .fp-controlArrow.fp-prev:before {
-	font-family: 'Black Tie';
-	position: absolute;
-	left: 11px;
+    font-family: 'Black Tie';
+    position: absolute;
+    left: 11px;
     top: 50%;
-	transform: translate(0,-50%);
-	font-weight: 200;
-	content: "\F092";
-	font-size: 18px;
-	padding: 20px 24px;
-	background: rgba(16,19,33,0.5); -webkit-transition:.5s; -moz-transition:.5s; -o-transition:.5s; -ms-transition:.5s; transition:.5s;
+    transform: translate(0,-50%);
+    font-weight: 200;
+    content: "\F092";
+    font-size: 40px;
+    padding: 20px 24px;
+    background: rgba(16,19,33,0.5);
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    transition:.5s;
 }
 .fp-controlArrow.fp-next:before {
-	font-family: 'Black Tie';
-	position: absolute;
-	right: 11px;
+    font-family: 'Black Tie';
+    position: absolute;
+    right: 11px;
     top: 50%;
-	transform: translate(0,-50%);
-	font-weight: 200;
-	content: "\F093";
-	font-size: 18px;
-	padding: 20px 24px;
-	background: rgba(16,19,33,0.5); -webkit-transition:.5s; -moz-transition:.5s; -o-transition:.5s; -ms-transition:.5s; transition:.5s;
+    transform: translate(0,-50%);
+    font-weight: 200;
+    content: "\F093";
+    font-size: 40px;
+    padding: 20px 24px;
+    background: rgba(16,19,33,0.5);
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    transition:.5s;
 }
 .fp-controlArrow.fp-prev:hover:before, .fp-controlArrow.fp-next:hover:before {
-	background: rgba(16,19,33,0.75);
+    background: rgba(16,19,33,0.75);
 }
 .fp-scrollable {
     overflow: scroll;
@@ -167,8 +177,8 @@ html.fp-enabled,
 .fp-slidesNav ul li:hover a.active span{
     height: 8px;
     width: 8px;
-	background: #dd3154;
-	border-radius: 2px;
+    background: #FEDD31;
+    border-radius: 2px;
  }
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
@@ -176,7 +186,7 @@ html.fp-enabled,
     z-index: 1;
     height: 8px;
     width: 8px;
-	border-radius: 2px;
+    border-radius: 2px;
     border: 0;
     background: rgba(255,255,255,.1);
     left: 50%;
@@ -188,10 +198,10 @@ html.fp-enabled,
 }
 #fp-nav ul li:hover a span,
 .fp-slidesNav ul li:hover a span{
-	background: rgba(255,255,255,1);
+    background: rgba(255,255,255,1);
     height: 8px;
     width: 8px;
-	border-radius: 2px;
+    border-radius: 2px;
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
