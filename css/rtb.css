@@ -17,7 +17,7 @@
   .header { position: fixed; width: 100%; z-index: 56; padding: 0 35px; }
   
 /* logo */    
-  .logo {float: none;padding: 0;position: relative;margin-bottom: 20px;max-width: 250px;}
+  .logo {float: none;padding: 0;position: relative;margin-bottom: 20px;max-width: 100px;}
   .logo img { display: block; width: 75px; }
 
 .path {
@@ -29,11 +29,9 @@
 @keyframes dash {
   from {
     stroke-dashoffset: 5000;
-    fill-opacity: 0;
   }
   to {
     stroke-dashoffset: 0;
-    fill-opacity: 1;
   }
 }
 
@@ -67,7 +65,7 @@
 
   /* content - start */
   .content .quote {font-size: 32px;color: #000000;max-width: 700px;width: 100%;margin: auto;padding: 0;font-weight: 100;text-transform: uppercase;line-height: 1.25;position: absolute;z-index: 98;top: 50%;left: 50%;transform: translate(-50%,-50%);}
-  .content .title {font-size: 14px;letter-spacing: 8px;color: #FEDD31;margin: auto;padding: 0;font-weight: 600;text-transform: uppercase;line-height: 1.25;margin-bottom: 35px;}
+  .content .title {font-size: 14px;letter-spacing: 8px;color: transparent;margin: auto;padding: 0;font-weight: 600;text-transform: uppercase;line-height: 1.25;margin-bottom: 35px;}
   .content .sub { font-size: 14px; color: rgba(255,255,255,0.25); margin-top: 10px; }
   .content .sub span { font-weight: 400; }
   .content .more { bottom: 50px; left: 50%; transform: translate(-50%,0); z-index: 1; position: absolute; }
