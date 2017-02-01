@@ -67,7 +67,7 @@ html.fp-enabled,
     transform: translate(0,-50%);
     cursor: pointer;
     background: transparent;
-    color: #ffffff;
+    color: #000000;
 }
 .fp-controlArrow.fp-prev {
     left: 0;
@@ -86,7 +86,7 @@ html.fp-enabled,
     content: "\F092";
     font-size: 40px;
     padding: 20px 24px;
-    background: rgba(16,19,33,0.5);
+    background: transparent;
     -webkit-transition:.5s;
     -moz-transition:.5s;
     -o-transition:.5s;
@@ -103,7 +103,7 @@ html.fp-enabled,
     content: "\F093";
     font-size: 40px;
     padding: 20px 24px;
-    background: rgba(16,19,33,0.5);
+    background: transparent;
     -webkit-transition:.5s;
     -moz-transition:.5s;
     -o-transition:.5s;
@@ -111,7 +111,7 @@ html.fp-enabled,
     transition:.5s;
 }
 .fp-controlArrow.fp-prev:hover:before, .fp-controlArrow.fp-next:hover:before {
-    background: rgba(16,19,33,0.75);
+    background: transparent;
 }
 .fp-scrollable {
     overflow: scroll;
@@ -175,9 +175,9 @@ html.fp-enabled,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span{
-    height: 8px;
+    height: 12px;
     width: 8px;
-    background: #FEDD31;
+    background: #000000;
     border-radius: 2px;
  }
 #fp-nav ul li a span,
@@ -188,7 +188,7 @@ html.fp-enabled,
     width: 8px;
     border-radius: 2px;
     border: 0;
-    background: rgba(255,255,255,.1);
+    background: #000000;
     left: 50%;
     top: 50%;
     -webkit-transition: all 0.1s ease-in-out;
