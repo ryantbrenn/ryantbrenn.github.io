@@ -64,7 +64,6 @@ html.fp-enabled,
     position: absolute;
     z-index: 4;
     top: 50%;
-    transform: translate(0,-50%);
     cursor: pointer;
     background: transparent;
     color: #000000;
@@ -177,7 +176,7 @@ html.fp-enabled,
 .fp-slidesNav ul li:hover a.active span{
     height: 12px;
     width: 8px;
-    background: #000000;
+    background: #000;
     border-radius: 2px;
  }
 #fp-nav ul li a span,
@@ -188,7 +187,7 @@ html.fp-enabled,
     width: 8px;
     border-radius: 2px;
     border: 0;
-    background: #000000;
+    background: #000;
     left: 50%;
     top: 50%;
     -webkit-transition: all 0.1s ease-in-out;
