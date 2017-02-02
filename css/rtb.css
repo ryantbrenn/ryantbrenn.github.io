@@ -37,6 +37,7 @@
       margin: 0 auto;
   }
 
+.vid-fallback-mobile {display: none;}
     
 /* menu */  
   
@@ -111,7 +112,12 @@
   .btn-ser, .btn-ser:focus, .btn-ser:active {padding: 10px 11px 10px 15px;background: #000;color: #fff;border: 2px solid #000000;font-size: 15px;font-weight: 400;text-transform: uppercase;}
   .btn-ser:hover {border: none;background: #000;color: #fff;}
   
-/* media */    
+/* media */  
+
+  @media screen and (max-width: 480px) {
+    #vid-fallback-mobile { display: block; }
+    video {display:none;}
+  }  
   @media all and (min-width:767px) {
   * { text-decoration: none; transition: all .4s ease-in-out; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; }
   }
@@ -161,3 +167,4 @@
   }
     
   }
+
