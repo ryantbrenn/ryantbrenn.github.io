@@ -108,7 +108,7 @@
   
 /* general */  
   * { box-sizing: border-box; }
-  .btn-ser, .btn-ser:focus, .btn-ser:active {padding: 10px 11px 10px 15px;background: #ffffff;color: #000;border: 2px solid #000000;font-size: 15px;font-weight: 400;text-transform: uppercase;}
+  .btn-ser, .btn-ser:focus, .btn-ser:active {padding: 10px 11px 10px 15px;background: #000;color: #fff;border: 2px solid #000000;font-size: 15px;font-weight: 400;text-transform: uppercase;}
   .btn-ser:hover {border: none;background: #000;color: #fff;}
   
 /* media */    
