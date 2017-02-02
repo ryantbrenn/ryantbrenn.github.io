@@ -115,7 +115,9 @@
 /* media */  
 
   @media screen and (max-width: 480px) {
-    #vid-fallback-mobile { display: block; }
+    .vid-fallback-mobile {display: block;width: 90%;}
+    .vid-fallback-mobile img {display: block;width: 100%;}
+
     video {display:none;}
   }  
   @media all and (min-width:767px) {
@@ -142,7 +144,7 @@
   .content .project .project-content .title { display: none; }
   .content .project .project-content span { padding: 5px 5px 5px 7px; background: rgba(16,19,33,0.98); display: inline-block; }
   .btn-ser, .btn-ser:focus, .btn-ser:active {padding: 6px 5px 6px 7px;margin: 0;position: relative;}
-  .btn-ser:hover { background: #dd3154; border: 2px solid transparent; }
+  .btn-ser:hover {background: #000000;border: 2px solid transparent;}
   .content .text { font-size: 12px; }
   
   #menu li a { font-size: 16px; left: 0;}
