@@ -33,3 +33,24 @@ $(document).ready(function(){
 
         // do nothing
     }
+
+if (window.location.href.indexOf("airbnb") > -1) {
+    	$(function() {
+
+    var quotes = $(".airbnb p");
+    var quoteIndex = -1;
+    
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1000)
+            .delay(1000)
+            .fadeOut(1000, showNextQuote);
+    }
+    
+    showNextQuote();
+    
+})();
+
+        // do nothing
+    }
