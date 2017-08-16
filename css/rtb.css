@@ -36,6 +36,7 @@
       max-width: 1300px;
       margin: 0 auto;
   }
+  .opal p {display: none}
 
 .vid-fallback-mobile {display: none;}
     
