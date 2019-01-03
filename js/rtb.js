@@ -12,45 +12,45 @@ $(document).ready(function(){
 
 
 
-// opal custom message
-    if (window.location.href.indexOf("opal") > -1) {
-    	$(function() {
+// // opal custom message
+//     if (window.location.href.indexOf("opal") > -1) {
+//     	$(function() {
 
-    var quotes = $(".opal p");
-    var quoteIndex = -1;
+//     var quotes = $(".opal p");
+//     var quoteIndex = -1;
     
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(1000)
-            .delay(1000)
-            .fadeOut(1000, showNextQuote);
-    }
+//     function showNextQuote() {
+//         ++quoteIndex;
+//         quotes.eq(quoteIndex % quotes.length)
+//             .fadeIn(1000)
+//             .delay(1000)
+//             .fadeOut(1000, showNextQuote);
+//     }
     
-    showNextQuote();
+//     showNextQuote();
     
-})();
+// })();
 
-        // do nothing
-    }
+//         // do nothing
+//     }
 
-if (window.location.href.indexOf("airbnb") > -1) {
-    	$(function() {
+// if (window.location.href.indexOf("airbnb") > -1) {
+//     	$(function() {
 
-    var quotes = $(".airbnb p");
-    var quoteIndex = -1;
+//     var quotes = $(".airbnb p");
+//     var quoteIndex = -1;
     
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(1000)
-            .delay(1000)
-            .fadeOut(1000, showNextQuote);
-    }
+//     function showNextQuote() {
+//         ++quoteIndex;
+//         quotes.eq(quoteIndex % quotes.length)
+//             .fadeIn(1000)
+//             .delay(1000)
+//             .fadeOut(1000, showNextQuote);
+//     }
     
-    showNextQuote();
+//     showNextQuote();
     
-})();
+// })();
 
-        // do nothing
-    }
+//         // do nothing
+//     }
