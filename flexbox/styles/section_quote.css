@@ -1,0 +1,80 @@
+    section .quote {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    
+    section .quote .section {
+        padding: 0
+    }
+    
+    .quote {
+        border: 1px solid #000;
+        border-radius: 10px;
+         /*will make our third flex item, within our `<section>` element, a flex container*/
+        background: transparent;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    .quote img.featured {
+        width: 200px;
+        height: 200px;
+        float: left;
+        border-radius: 50%;
+        margin: 20px 20px 0 20px;
+    }
+    .quote .copy {
+        flex: 1;
+        float: right;
+        text-align: left;
+        font-size: 16px;
+        padding: 20px 20px 0 0;
+    }
+    
+    .quote .copy img {
+        border-radius: 0;
+        width: 60%;
+        height: auto;
+    }
+    
+    .quote .copy p {
+        padding: 0!important;
+        float: left;
+        text-align: left;
+    }
+    .quote .logos {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: inline-flex;
+        padding: 20px;
+        background: rgba(240, 240, 240, 0.5);
+    }
+    .quote .logos-title {
+        width: 100%;
+        text-transform: uppercase;
+        padding: 0;
+        }
+    .quote .logos img {
+        max-width: 23%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    
+    @media (max-width: 800px) {
+        section .quote {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+       .quote .copy {
+            width: 100%;
+            float: left;
+            padding-left: 20px;
+        }
+         .quote .copy img {
+            margin-top: 20px
+        }
+      
+    }
